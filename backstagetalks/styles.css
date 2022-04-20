@@ -1,0 +1,93 @@
+:root {
+    -turqoise: #00c1b5;
+    -yellow: #ffbe00;
+    -red: #e30512;
+    -orange: #ff651a;
+    -blue: #1d3fbb;
+    
+}
+
+body {
+    transition:0.7s;
+    margin:0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow:hidden;
+}
+
+body {
+
+}
+
+.top {
+    display:flex;
+
+}
+
+nav {
+    display:flex;
+    flex-direction: column;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    gap:20px;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+}
+
+.book {
+    width: 300px;
+    height:400px;
+    box-shadow: 0px 0px 20px 9px rgb(10 10 10 / 13%);
+}
+
+.slide {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+}
+
+.issue5 {
+    background-color: var(--turqoise);
+}
+
+.issue4 {
+    background-color: var(--orange);
+}
+
+.issue3 {
+    background-color: var(--yellow);
+}
+
+.issue2 {
+    background-color: var(--blue);
+}
+
+.issue1 {   
+    background-color: var(--red);
+}
+
+.top-left {
+    position:fixed;
+    top:20px;
+    left:20px;
+}
+
+.top-right {
+    position:fixed;
+    top:20px;
+    right:20px;
+}
+
+.bottom-left {
+    position:fixed;
+    bottom:20px;
+    left:20px;
+}
